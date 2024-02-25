@@ -1,13 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Point of Sales</title>
-</head>
-<body>
+@extends('layout')
+
+@section('title')
+    Home
+@endsection
+
+@section('content')
     <h1>Selamat Datang</h1>
-    <h1>Di halaman utama Point of Sales</h1>
-</body>
-</html>
+    <h1>Di Halaman Utama</h1>
+    <h1>Point of Sale</h1>
+@endsection
